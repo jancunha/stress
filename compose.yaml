@@ -1,0 +1,7 @@
+services:
+  stress:
+    container_name: stress
+    restart: always
+    image: jancunha/stress:v1
+    ports: 
+      - 8080:3000
