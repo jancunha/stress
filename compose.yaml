@@ -2,7 +2,7 @@ services:
   stress:
     container_name: stress
     restart: always
-    image: jancunha/stress:v1
+    image: jancunha/stress:v2
     ports: 
       - 8080:3000
     healthcheck:
